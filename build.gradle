@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hat'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.2-groovy-2.5'
+    testCompile group: 'org.spockframework', name: 'spock-spring', version: '1.2-groovy-2.5'
+}
