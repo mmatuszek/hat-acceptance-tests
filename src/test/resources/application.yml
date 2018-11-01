@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hat
+    username: hat
+    password: catinthehat
+
+hat:
+  base-url: http://localhost:8080/
